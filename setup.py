@@ -19,7 +19,7 @@ classifiers = [
 
 setup(
     name="google-colab-shell",
-    version="0.1.1",
+    version="0.2",
     description="An efficent python package to launch terminal in Google Colab",
     long_description=open("README.md").read()
     + "\n\n"
