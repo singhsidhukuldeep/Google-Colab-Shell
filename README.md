@@ -27,6 +27,8 @@ pip install google-colab-shell
 
 ## Usage
 
+<a href="https://colab.research.google.com/github/singhsidhukuldeep/Google-Colab-Shell/blob/master/Google_Colab_Shell.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+
 ```python
 # import the module once
 from google_colab_shell import getshell
