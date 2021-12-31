@@ -1,0 +1,30 @@
+<!--https://github.com/singhsidhukuldeep/Google-Colab-Shell/-->
+<div id=colab_shell></div>
+<script src="https://code.jquery.com/jquery-latest.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery.terminal/js/jquery.terminal.min.js"></script>
+<link href="https://cdn.jsdelivr.net/npm/jquery.terminal/css/jquery.terminal.min.css" rel="stylesheet"/>
+<script>
+   $('#colab_shell').terminal(async function(command) {
+       if (command !== '') {
+           try {
+               let res = await google.colab.kernel.invokeFunction('shell', [command])
+               let out = res.data['application/json'][0]
+               this.echo(new String(out))
+           } catch(e) {
+               this.error(new String(e));
+           }
+       } else {
+           this.echo(
+             //   '>>Empty Command<<\n'+
+             //   'If you can afford use Google Colab Pro'
+               );
+       }
+   }, {
+       greetings: 'Welcome to Google Colab Shell\n'+
+         'If you can afford, please use Google Colab Pro\n'+
+         '⭐ STAR the repo ⭐\n https://github.com/singhsidhukuldeep/Google-Colab-Shell\n\n',
+       name: 'colab_shell',
+       height: $$height$$,
+       prompt: '█$ colab>>\t'
+   });
+</script>
