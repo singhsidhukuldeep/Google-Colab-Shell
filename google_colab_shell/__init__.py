@@ -1,10 +1,19 @@
+# !/usr/bin/env python3
+# coding:utf-8
+"""
+Name       : __init__.py
+Author     : Kuldeep Singh Sidhu
+GitHub     : https://github.com/singhsidhukuldeep
+Description: 
+"""
+
 from IPython.display import JSON, HTML, IFrame
 from google.colab import output
 from subprocess import getoutput
 import os
 import urllib.request
 
-html_code_url = "https://raw.githubusercontent.com/singhsidhukuldeep/Google-Colab-Shell/master/colab-shell.html"
+html_code_url = "https://raw.githubusercontent.com/singhsidhukuldeep/Google-Colab-Shell/master/html/colab-shell.html"
 
 
 def _run_once(f):
@@ -40,7 +49,7 @@ output.register_callback("shell", __shell)
 
 def getshell(height=400, html_code=__get_html_code()):
     """
-    Displays a terminal for Google Colab.
+    Displays a terminal for Google Colab. <3 Google
 
     Make sure this is the last command in the cell.
 
