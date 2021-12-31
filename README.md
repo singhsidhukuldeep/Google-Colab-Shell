@@ -13,7 +13,7 @@
 <a href="https://pypi.org/project/google-colab-shell/"><img src="https://img.shields.io/pypi/v/google-colab-shell" alt="Go to https://pypi.org/project/google-colab-shell/"/></a>
 <a href="https://pypi.org/project/google-colab-shell/"><img src="https://img.shields.io/pypi/status/google-colab-shell" alt="Go to https://pypi.org/project/google-colab-shell/"/></a>
 <!-- <a href="https://pypi.org/project/google-colab-shell/"><img src="https://img.shields.io/pypi/format/google-colab-shell" alt="Go to https://pypi.org/project/google-colab-shell/"/></a> -->
-<a href="https://lgtm.com/projects/g/singhsidhukuldeep/google-colab-shell/context:python"><img alt="Language grade: Python" src="https://img.shields.io/lgtm/grade/python/g/singhsidhukuldeep/google-colab-shell.svg?logo=lgtm&logoWidth=18"/></a>
+<a href="https://lgtm.com/projects/g/singhsidhukuldeep/Google-Colab-Shell/context:javascript"><img alt="Language grade: JavaScript" src="https://img.shields.io/lgtm/grade/javascript/g/singhsidhukuldeep/Google-Colab-Shell.svg?logo=lgtm&logoWidth=18"/></a>
 <a href="https://pypistats.org/packages/google-colab-shell"><img src="https://img.shields.io/pypi/dm/google-colab-shell"/></a>
 <!-- <img src="https://visitor-badge.glitch.me/badge?page_id=request_boost" alt="Go to https://pypi.org/project/google-colab-shell/"/> -->
 <img src="https://static.pepy.tech/personalized-badge/google-colab-shell?period=total&units=none&left_color=black&right_color=brightgreen&left_text=Total%20Downloads" alt="Go to https://pypi.org/project/google-colab-shell/"/>
