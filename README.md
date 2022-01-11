@@ -100,6 +100,7 @@ LinkedIn: [Kuldeep Singh Sidhu (LinkedIn)](https://www.linkedin.com/in/singhsidh
 - [ ] Set-up tests for edge cases and changes verification
 - [ ] Set-up CI/CD pipleine (possibly using GitHub actions) to publish changes to PyPi
 - [ ] Improeve the doc-strings documentation to add more explanantion and examples
+- [ ] Find possibility to fetch output without locking the cell
 
 ## Say Thanks
 
