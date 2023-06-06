@@ -66,6 +66,15 @@ Make sure this is the last command in the cell.
 
     >>> getshell(height=400)
 ```
+  
+<h2 align="center">🌟⭐✨STAR ME✨⭐🌟</h2>
+
+<p align="center">
+  <b>You can give me a small 🤓 dopmaine 🤝 support by ⭐STARRING⭐ this project</b>
+  
+<img src="https://api.star-history.com/svg?repos=singhsidhukuldeep/Google-Colab-Shell&type=Date" width="70%" alt="🌟⭐✨STAR ME✨⭐🌟">
+</p>
+
 
 ## Credits
 
