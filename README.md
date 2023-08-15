@@ -35,7 +35,7 @@ from google_colab_shell import getshell
 ```
 
 ```python
-## Anytime you awnt to open a terminal
+## Anytime you want to open a terminal
 
 getshell()
 
@@ -53,7 +53,7 @@ Make sure this is the last command in the cell.
     Parameters
     ----------
     height : int, default 400
-        height of the rendered terminal
+        Height of the rendered terminal
 
     Returns
     -------
